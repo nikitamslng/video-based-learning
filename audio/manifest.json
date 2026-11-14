@@ -1,1729 +1,1729 @@
 {
  "voice": "id-ID-ArdiNeural",
- "rate": "+0%",
- "sentence_gap": 0.28,
+ "rate": "-3%",
+ "mode": "segment",
  "segments": {
   "s01_title": {
    "scene": "S01Intro",
    "file": "audio/segments/s01_title.wav",
-   "duration": 16.32,
+   "duration": 18.667,
    "sentences": [
     {
      "text": "Halo semuanya, selamat datang di Session 15.",
      "speech": "Halo semuanya, selamat datang di Session 15.",
-     "start": 0.0,
-     "end": 2.855
+     "start": 0.101,
+     "end": 3.194
     },
     {
      "text": "Hari ini kita akan membahas salah satu teknik desain algoritma yang paling sering muncul, baik di perkuliahan, di technical interview, maupun di competitive programming, yaitu Dynamic Programming.",
      "speech": "Hari ini kita akan membahas salah satu teknik desain algoritma yang paling sering muncul, baik di perkuliahan, di technical interview, maupun di competitive programming, yaitu Dynamic Programming.",
-     "start": 3.135,
-     "end": 13.148
+     "start": 4.072,
+     "end": 14.536
     },
     {
      "text": "Studi kasus utama kita adalah Maximum Subarray Sum.",
      "speech": "Studi kasus utama kita adalah Maximum Subarray Sum.",
-     "start": 13.428,
-     "end": 16.32
+     "start": 15.399,
+     "end": 18.517
     }
    ],
-   "sig": "f8c1ec028ccd33de70baecd54a5bafa499c062cf"
+   "sig": "a4e3781fd71035e6"
   },
   "s01_lo2": {
    "scene": "S01Intro",
    "file": "audio/segments/s01_lo2.wav",
-   "duration": 16.485,
+   "duration": 18.81,
    "sentences": [
     {
      "text": "Ada dua learning outcome yang ingin kita capai.",
      "speech": "Ada dua learning outcome yang ingin kita capai.",
-     "start": 0.0,
-     "end": 2.282
+     "start": 0.101,
+     "end": 2.627
     },
     {
      "text": "Pertama, LO 2: kalian mampu mengidentifikasi optimal substructure dan overlapping subproblems sebagai syarat penerapan DP.",
      "speech": "Pertama, L O 2: kalian mampu mengidentifikasi optimal substructure dan overlapping subproblems sebagai syarat penerapan DP.",
-     "start": 2.562,
-     "end": 9.696
+     "start": 3.505,
+     "end": 10.966
     },
     {
      "text": "Kalian juga bisa membedakan DP dari greedy dan divide and conquer, serta menjelaskan kenapa algoritma Kadane termasuk DP.",
      "speech": "Kalian juga bisa membedakan DP dari greedy dan divide and conquer, serta menjelaskan kenapa algoritma Kadane termasuk DP.",
-     "start": 9.976,
-     "end": 16.485
+     "start": 11.843,
+     "end": 18.66
     }
    ],
-   "sig": "04ed904ede6dceb0c4cb511bb8d66b213f736d3f"
+   "sig": "e53ca4d9e69c7d94"
   },
   "s01_lo3": {
    "scene": "S01Intro",
    "file": "audio/segments/s01_lo3.wav",
-   "duration": 18.366,
+   "duration": 19.982,
    "sentences": [
     {
      "text": "Kedua, LO 3: kalian mampu mendesain algoritma Kadane dengan recurrence dp[i] = max(A[i], dp[i-1] + A[i]).",
      "speech": "Kedua, L O 3: kalian mampu mendesain algoritma Kadane dengan recurrence d p i sama dengan max dari A i dan d p i minus 1 plus A i.",
-     "start": 0.0,
-     "end": 7.883
+     "start": 0.114,
+     "end": 8.323
     },
     {
      "text": "Caranya dengan menerapkan empat langkah desain DP, yaitu characterize, define, compute, dan construct, lalu mengimplementasikannya dengan memoization maupun tabulation.",
      "speech": "Caranya dengan menerapkan empat langkah desain DP, yaitu characterize, define, compute, dan construct, lalu mengimplementasikannya dengan memoization maupun tabulation.",
-     "start": 8.163,
-     "end": 18.366
+     "start": 9.201,
+     "end": 19.832
     }
    ],
-   "sig": "5a7757e200d2a0b103045b45cf8d265bcae56c33"
+   "sig": "0ae4a3812b2b5c0c"
   },
   "s01_outline": {
    "scene": "S01Intro",
    "file": "audio/segments/s01_outline.wav",
-   "duration": 17.315,
+   "duration": 21.22,
    "sentences": [
     {
      "text": "Alurnya begini.",
      "speech": "Alurnya begini.",
-     "start": 0.0,
-     "end": 0.941
+     "start": 0.1,
+     "end": 1.286
     },
     {
      "text": "Kita mulai dari paradigma DP, yaitu optimal substructure dan overlapping subproblems.",
      "speech": "Kita mulai dari paradigma DP, yaitu optimal substructure dan overlapping subproblems.",
-     "start": 1.221,
-     "end": 6.126
+     "start": 2.165,
+     "end": 7.32
     },
     {
      "text": "Lalu kita bandingkan memoization dengan tabulation.",
      "speech": "Lalu kita bandingkan memoization dengan tabulation.",
-     "start": 6.406,
-     "end": 8.976
+     "start": 8.182,
+     "end": 11.03
     },
     {
      "text": "Setelah itu kita masuk ke Maximum Subarray Sum dengan algoritma Kadane.",
      "speech": "Setelah itu kita masuk ke Maximum Subarray Sum dengan algoritma Kadane.",
-     "start": 9.256,
-     "end": 12.702
+     "start": 11.894,
+     "end": 15.592
     },
     {
      "text": "Dan terakhir, kita diskusikan kenapa Kadane itu DP, dan bukan greedy.",
      "speech": "Dan terakhir, kita diskusikan kenapa Kadane itu DP, dan bukan greedy.",
-     "start": 12.982,
-     "end": 17.315
+     "start": 16.469,
+     "end": 21.07
     }
    ],
-   "sig": "edd659b4b6710c1ea05b612624fbef74a4d3a256"
+   "sig": "788fba2f921b3993"
   },
   "s02_code": {
    "scene": "S02WhyDP",
    "file": "audio/segments/s02_code.wav",
-   "duration": 13.007,
+   "duration": 16.915,
    "sentences": [
     {
      "text": "Kita mulai dengan satu latihan sederhana.",
      "speech": "Kita mulai dengan satu latihan sederhana.",
-     "start": 0.0,
-     "end": 2.02
+     "start": 0.101,
+     "end": 2.356
     },
     {
      "text": "Coba hitung fib(5) secara rekursif.",
      "speech": "Coba hitung fib 5 secara rekursif.",
-     "start": 2.3,
-     "end": 4.208
+     "start": 3.221,
+     "end": 5.412
     },
     {
      "text": "Ini pseudocode-nya.",
      "speech": "Ini pseudocode-nya.",
-     "start": 4.488,
-     "end": 5.68
+     "start": 6.275,
+     "end": 7.718
     },
     {
      "text": "Kalau n kurang dari atau sama dengan 1, kembalikan n.",
      "speech": "Kalau n kurang dari atau sama dengan 1, kembalikan n.",
-     "start": 5.96,
-     "end": 9.144
+     "start": 8.582,
+     "end": 12.061
     },
     {
      "text": "Kalau tidak, kembalikan FIB(n-1) + FIB(n-2).",
      "speech": "Kalau tidak, kembalikan fib n minus 1 plus fib n minus 2.",
-     "start": 9.424,
-     "end": 13.007
+     "start": 12.925,
+     "end": 16.765
     }
    ],
-   "sig": "10b907eb456d95bbe1ce0b03f406d638b5aa4fdf"
+   "sig": "79ab1d865512d3db"
   },
   "s02_tree": {
    "scene": "S02WhyDP",
    "file": "audio/segments/s02_tree.wav",
-   "duration": 11.923,
+   "duration": 14.261,
    "sentences": [
     {
      "text": "Sekarang kita gambar recursion tree-nya.",
      "speech": "Sekarang kita gambar recursion tree-nya.",
-     "start": 0.0,
-     "end": 1.856
+     "start": 0.101,
+     "end": 2.214
     },
     {
      "text": "fib(5) memanggil fib(4) dan fib(3).",
      "speech": "fib 5 memanggil fib 4 dan fib 3.",
-     "start": 2.136,
-     "end": 4.339
+     "start": 3.079,
+     "end": 5.515
     },
     {
      "text": "fib(4) memanggil fib(3) dan fib(2), dan seterusnya, sampai semua cabang berhenti di base case, yaitu fib(1) dan fib(0).",
      "speech": "fib 4 memanggil fib 3 dan fib 2, dan seterusnya, sampai semua cabang berhenti di base case, yaitu fib 1 dan fib 0.",
-     "start": 4.619,
-     "end": 11.923
+     "start": 6.392,
+     "end": 14.111
     }
    ],
-   "sig": "d26f6f7643c703dae9a54bb8890a2c29e70333a8"
+   "sig": "555b5fab52d59b0f"
   },
   "s02_question": {
    "scene": "S02WhyDP",
    "file": "audio/segments/s02_question.wav",
-   "duration": 11.346,
+   "duration": 15.278,
    "sentences": [
     {
      "text": "Pertanyaannya, berapa kali kita menghitung fib(2)?",
      "speech": "Pertanyaannya, berapa kali kita menghitung fib 2?",
-     "start": 0.0,
-     "end": 2.681
+     "start": 0.101,
+     "end": 3.078
     },
     {
      "text": "Perhatikan lingkaran merah.",
      "speech": "Perhatikan lingkaran merah.",
-     "start": 2.961,
-     "end": 4.202
+     "start": 3.942,
+     "end": 5.45
     },
     {
      "text": "Ternyata fib(2) dihitung sebanyak tiga kali.",
      "speech": "Ternyata fib 2 dihitung sebanyak tiga kali.",
-     "start": 4.482,
-     "end": 6.72
+     "start": 6.314,
+     "end": 8.827
     },
     {
      "text": "Bagaimana dengan fib(3)?",
      "speech": "Bagaimana dengan fib 3?",
-     "start": 7.0,
-     "end": 8.428
+     "start": 9.689,
+     "end": 11.339
     },
     {
      "text": "Lingkaran biru menunjukkan fib(3) dihitung dua kali.",
      "speech": "Lingkaran biru menunjukkan fib 3 dihitung dua kali.",
-     "start": 8.708,
-     "end": 11.346
+     "start": 12.202,
+     "end": 15.128
     }
    ],
-   "sig": "b2486b2a76f0e3b95512eea9c59fe14d4c6791f7"
+   "sig": "092d7fd1c812284f"
   },
   "s02_problem": {
    "scene": "S02WhyDP",
    "file": "audio/segments/s02_problem.wav",
-   "duration": 14.416,
+   "duration": 17.417,
    "sentences": [
     {
      "text": "Inilah sumber masalahnya.",
      "speech": "Inilah sumber masalahnya.",
-     "start": 0.0,
-     "end": 1.28
+     "start": 0.1,
+     "end": 1.621
     },
     {
      "text": "Subproblem yang sama muncul lagi dan lagi.",
      "speech": "Subproblem yang sama muncul lagi dan lagi.",
-     "start": 1.56,
-     "end": 3.626
+     "start": 2.486,
+     "end": 4.767
     },
     {
      "text": "Semakin besar n, pengulangan ini meledak secara eksponensial, sehingga kompleksitasnya menjadi O(2^n).",
      "speech": "Semakin besar n, pengulangan ini meledak secara eksponensial, sehingga kompleksitasnya menjadi big O dua pangkat n.",
-     "start": 3.906,
-     "end": 10.461
+     "start": 5.644,
+     "end": 12.436
     },
     {
      "text": "Nah, bagaimana kalau hasilnya kita catat pada saat pertama kali dihitung?",
      "speech": "Nah, bagaimana kalau hasilnya kita catat pada saat pertama kali dihitung?",
-     "start": 10.741,
-     "end": 14.416
+     "start": 13.298,
+     "end": 17.267
     }
    ],
-   "sig": "7d9ff54aa925cee0a2ef4692b7625dbe29a9d113"
+   "sig": "eb826bfdd8f35b74"
   },
   "s03_code1": {
    "scene": "S03Memoization",
    "file": "audio/segments/s03_code1.wav",
-   "duration": 10.527,
+   "duration": 12.727,
    "sentences": [
     {
      "text": "Itulah ide dari memoization.",
      "speech": "Itulah ide dari memoization.",
-     "start": 0.0,
-     "end": 1.667
+     "start": 0.101,
+     "end": 2.021
     },
     {
      "text": "Perhatikan pseudocode MEMOIZED-FIB.",
      "speech": "Perhatikan pseudocode memoized fib.",
-     "start": 1.948,
-     "end": 3.988
+     "start": 2.886,
+     "end": 5.154
     },
     {
      "text": "Kita siapkan sebuah array memo dari 0 sampai n, lalu semua isinya kita set NIL, yang artinya belum pernah dihitung.",
      "speech": "Kita siapkan sebuah array memo dari 0 sampai n, lalu semua isinya kita set NIL, yang artinya belum pernah dihitung.",
-     "start": 4.268,
-     "end": 10.527
+     "start": 6.031,
+     "end": 12.577
     }
    ],
-   "sig": "8dd55d8c44b6671f3166c0d624bdd6c87d2ae15a"
+   "sig": "9a7b198e4bba72d5"
   },
   "s03_code2": {
    "scene": "S03Memoization",
    "file": "audio/segments/s03_code2.wav",
-   "duration": 16.463,
+   "duration": 18.732,
    "sentences": [
     {
      "text": "Di fungsi MEMOIZED-FIB-AUX, setelah base case, kita cek dulu.",
      "speech": "Di fungsi memoized fib aux, setelah base case, kita cek dulu.",
-     "start": 0.0,
-     "end": 3.809
+     "start": 0.101,
+     "end": 4.16
     },
     {
      "text": "Kalau memo[n] tidak NIL, berarti nilainya sudah tersimpan, jadi langsung kembalikan saja, tidak perlu dihitung ulang.",
      "speech": "Kalau memo n tidak NIL, berarti nilainya sudah tersimpan, jadi langsung kembalikan saja, tidak perlu dihitung ulang.",
-     "start": 4.089,
-     "end": 10.478
+     "start": 5.039,
+     "end": 11.778
     },
     {
      "text": "Kalau belum, kita hitung secara rekursif, simpan hasilnya ke memo[n], baru kemudian dikembalikan.",
      "speech": "Kalau belum, kita hitung secara rekursif, simpan hasilnya ke memo n, baru kemudian dikembalikan.",
-     "start": 10.758,
-     "end": 16.463
+     "start": 12.655,
+     "end": 18.582
     }
    ],
-   "sig": "46ba64b30f25c30b10d9e9d4d013171f7ccf7ca7"
+   "sig": "c9d881da0705aae5"
   },
   "s03_trace": {
    "scene": "S03Memoization",
    "file": "audio/segments/s03_trace.wav",
-   "duration": 14.608,
+   "duration": 16.89,
    "sentences": [
     {
      "text": "Mari kita lihat efeknya.",
      "speech": "Mari kita lihat efeknya.",
-     "start": 0.0,
-     "end": 1.248
+     "start": 0.1,
+     "end": 1.595
     },
     {
      "text": "Pemanggilan pertama turun di sepanjang cabang kiri, dari fib(5), fib(4), fib(3), fib(2), sampai fib(1) dan fib(0).",
      "speech": "Pemanggilan pertama turun di sepanjang cabang kiri, dari fib 5, fib 4, fib 3, fib 2, sampai fib 1 dan fib 0.",
-     "start": 1.528,
-     "end": 9.706
+     "start": 2.474,
+     "end": 11.005
     },
     {
      "text": "Setiap kali sebuah nilai selesai dihitung, nilai itu langsung disimpan ke dalam array memo.",
      "speech": "Setiap kali sebuah nilai selesai dihitung, nilai itu langsung disimpan ke dalam array memo.",
-     "start": 9.986,
-     "end": 14.608
+     "start": 11.881,
+     "end": 16.74
     }
    ],
-   "sig": "425244031818de8d8421142d02e140d808424b74"
+   "sig": "a65ca8fe921c09f0"
   },
   "s03_hit": {
    "scene": "S03Memoization",
    "file": "audio/segments/s03_hit.wav",
-   "duration": 12.131,
+   "duration": 14.465,
    "sentences": [
     {
      "text": "Ketika fib(4) membutuhkan fib(2), dan fib(5) membutuhkan fib(3), nilainya sudah ada di memo.",
      "speech": "Ketika fib 4 membutuhkan fib 2, dan fib 5 membutuhkan fib 3, nilainya sudah ada di memo.",
-     "start": 0.0,
-     "end": 5.581
+     "start": 0.114,
+     "end": 6.029
     },
     {
      "text": "Jadi subproblem yang sama memang tetap dipanggil, tetapi tidak dihitung lebih jauh.",
      "speech": "Jadi subproblem yang sama memang tetap dipanggil, tetapi tidak dihitung lebih jauh.",
-     "start": 5.861,
-     "end": 10.022
+     "start": 6.907,
+     "end": 11.379
     },
     {
      "text": "Recursion tree-nya menyusut drastis.",
      "speech": "Recursion tree-nya menyusut drastis.",
-     "start": 10.302,
-     "end": 12.131
+     "start": 12.241,
+     "end": 14.315
     }
    ],
-   "sig": "4842bb87358e7e49e7137792d0f7a0aa33a592ba"
+   "sig": "e4665e219f4e2ef8"
   },
   "s03_complexity": {
    "scene": "S03Memoization",
    "file": "audio/segments/s03_complexity.wav",
-   "duration": 6.827,
+   "duration": 7.429,
    "sentences": [
     {
      "text": "Karena setiap subproblem diselesaikan paling banyak satu kali, kompleksitas waktunya turun dari O(2^n) menjadi O(n).",
      "speech": "Karena setiap subproblem diselesaikan paling banyak satu kali, kompleksitas waktunya turun dari big O dua pangkat n menjadi big O n.",
-     "start": 0.0,
-     "end": 6.827
+     "start": 0.114,
+     "end": 7.279
     }
    ],
-   "sig": "b40592f625e29ea5403f07f026610401d7dee073"
+   "sig": "8c062b231e79049d"
   },
   "s04_def": {
    "scene": "S04Definition",
    "file": "audio/segments/s04_def.wav",
-   "duration": 10.193,
+   "duration": 11.645,
    "sentences": [
     {
      "text": "Sekarang kita formalkan.",
      "speech": "Sekarang kita formalkan.",
-     "start": 0.0,
-     "end": 1.269
+     "start": 0.1,
+     "end": 1.634
     },
     {
      "text": "Dynamic Programming adalah teknik desain algoritma untuk menyelesaikan masalah yang memiliki overlapping subproblems dan optimal substructure, dengan cara menyimpan hasil antara.",
      "speech": "Dynamic Programming adalah teknik desain algoritma untuk menyelesaikan masalah yang memiliki overlapping subproblems dan optimal substructure, dengan cara menyimpan hasil antara.",
-     "start": 1.549,
-     "end": 10.193
+     "start": 2.513,
+     "end": 11.495
     }
    ],
-   "sig": "cb8425981e49fbaa2d90fab8c0426b00ac10475f"
+   "sig": "af4f073ca1003fb9"
   },
   "s04_props": {
    "scene": "S04Definition",
    "file": "audio/segments/s04_props.wav",
-   "duration": 19.111,
+   "duration": 21.426,
    "sentences": [
     {
      "text": "Jadi, DP bisa diterapkan kalau dua syarat terpenuhi.",
      "speech": "Jadi, DP bisa diterapkan kalau dua syarat terpenuhi.",
-     "start": 0.0,
-     "end": 3.182
+     "start": 0.114,
+     "end": 3.491
     },
     {
      "text": "Pertama, optimal substructure: solusi optimal dari sebuah masalah mengandung solusi optimal dari subproblem-subproblem-nya.",
      "speech": "Pertama, optimal substructure: solusi optimal dari sebuah masalah mengandung solusi optimal dari subproblem-subproblem-nya.",
-     "start": 3.462,
-     "end": 10.221
+     "start": 4.369,
+     "end": 11.43
     },
     {
      "text": "Kedua, overlapping subproblems: subproblem yang sama diselesaikan berulang kali dalam solusi rekursif yang naif, persis seperti fib(2) dan fib(3) tadi.",
      "speech": "Kedua, overlapping subproblems: subproblem yang sama diselesaikan berulang kali dalam solusi rekursif yang naif, persis seperti fib 2 dan fib 3 tadi.",
-     "start": 10.501,
-     "end": 19.111
+     "start": 12.307,
+     "end": 21.276
     }
    ],
-   "sig": "2d707a29aa794a6d4b39fd3da5b37bf5f27a4ad4"
+   "sig": "c546b06d09ea939a"
   },
   "s04_contrast": {
    "scene": "S04Definition",
    "file": "audio/segments/s04_contrast.wav",
-   "duration": 14.203,
+   "duration": 16.49,
    "sentences": [
     {
      "text": "Ini berbeda dengan Divide and Conquer, yang subproblem-nya saling independen dan tidak tumpang tindih.",
      "speech": "Ini berbeda dengan Divide and Conquer, yang subproblem-nya saling independen dan tidak tumpang tindih.",
-     "start": 0.0,
-     "end": 4.956
+     "start": 0.114,
+     "end": 5.411
     },
     {
      "text": "DP juga berbeda dengan Greedy.",
      "speech": "DP juga berbeda dengan Greedy.",
-     "start": 5.236,
-     "end": 7.037
+     "start": 6.275,
+     "end": 8.324
     },
     {
      "text": "Greedy memang memiliki optimal substructure, tetapi hanya mengambil satu pilihan greedy di setiap langkah, tanpa mengevaluasi ulang.",
      "speech": "Greedy memang memiliki optimal substructure, tetapi hanya mengambil satu pilihan greedy di setiap langkah, tanpa mengevaluasi ulang.",
-     "start": 7.317,
-     "end": 14.203
+     "start": 9.188,
+     "end": 16.34
     }
    ],
-   "sig": "76bcee1bf679b549f69fb1270174242353cac758"
+   "sig": "47cbfae221ad8286"
   },
   "s05_two": {
    "scene": "S05TopDownBottomUp",
    "file": "audio/segments/s05_two.wav",
-   "duration": 16.911,
+   "duration": 19.287,
    "sentences": [
     {
      "text": "Ada dua cara mengimplementasikan DP.",
      "speech": "Ada dua cara mengimplementasikan DP.",
-     "start": 0.0,
-     "end": 1.927
+     "start": 0.101,
+     "end": 2.266
     },
     {
      "text": "Yang pertama top-down, atau memoization: kita tulis rekursi yang natural, lalu cache hasilnya supaya tidak dihitung ulang.",
      "speech": "Yang pertama top-down, atau memoization: kita tulis rekursi yang natural, lalu cache hasilnya supaya tidak dihitung ulang.",
-     "start": 2.207,
-     "end": 9.057
+     "start": 3.144,
+     "end": 10.322
     },
     {
      "text": "Yang kedua bottom-up, atau tabulation: kita isi sebuah tabel dengan urutan yang menjamin setiap subproblem sudah diselesaikan sebelum dibutuhkan.",
      "speech": "Yang kedua bottom-up, atau tabulation: kita isi sebuah tabel dengan urutan yang menjamin setiap subproblem sudah diselesaikan sebelum dibutuhkan.",
-     "start": 9.337,
-     "end": 16.911
+     "start": 11.198,
+     "end": 19.137
     }
    ],
-   "sig": "d05cebbed4b4563fdc93e388f88570cffbb87f54"
+   "sig": "48b00905f74715bb"
   },
   "s05_question": {
    "scene": "S05TopDownBottomUp",
    "file": "audio/segments/s05_question.wav",
-   "duration": 6.267,
+   "duration": 7.739,
    "sentences": [
     {
      "text": "MEMOIZED-FIB yang tadi adalah contoh implementasi top-down.",
      "speech": "memoized fib yang tadi adalah contoh implementasi top-down.",
-     "start": 0.0,
-     "end": 2.897
+     "start": 0.101,
+     "end": 3.245
     },
     {
      "text": "Pertanyaannya, bisakah kita mengubahnya menjadi bottom-up?",
      "speech": "Pertanyaannya, bisakah kita mengubahnya menjadi bottom-up?",
-     "start": 3.177,
-     "end": 6.267
+     "start": 4.11,
+     "end": 7.589
     }
    ],
-   "sig": "8e0bca653d2f65d1075bd0fa4d9fbf0a64248717"
+   "sig": "2d7459f71b3ce2aa"
   },
   "s05_code": {
    "scene": "S05TopDownBottomUp",
    "file": "audio/segments/s05_code.wav",
-   "duration": 16.409,
+   "duration": 20.239,
    "sentences": [
     {
      "text": "Tentu bisa.",
      "speech": "Tentu bisa.",
-     "start": 0.0,
-     "end": 0.709
+     "start": 0.1,
+     "end": 1.015
     },
     {
      "text": "Ini FIB-DP.",
      "speech": "Ini fib d p.",
-     "start": 0.989,
-     "end": 2.131
+     "start": 1.88,
+     "end": 3.259
     },
     {
      "text": "Kita buat array dp dari 0 sampai n, lalu isi dp[0] = 0 dan dp[1] = 1.",
      "speech": "Kita buat array d p dari 0 sampai n, lalu isi d p 0 sama dengan 0 dan d p 1 sama dengan 1.",
-     "start": 2.411,
-     "end": 8.164
+     "start": 4.137,
+     "end": 10.206
     },
     {
      "text": "Kemudian untuk i dari 2 sampai n, dp[i] = dp[i-1] + dp[i-2].",
      "speech": "Kemudian untuk i dari 2 sampai n, d p i sama dengan d p i minus 1 plus d p i minus 2.",
-     "start": 8.444,
-     "end": 14.002
+     "start": 11.082,
+     "end": 16.869
     },
     {
      "text": "Terakhir, kembalikan dp[n].",
      "speech": "Terakhir, kembalikan d p n.",
-     "start": 14.282,
-     "end": 16.409
+     "start": 17.731,
+     "end": 20.089
     }
    ],
-   "sig": "be3a8eb9bec26213307519e3f8580dff90b932df"
+   "sig": "d7244a92b3ce56a7"
   },
   "s05_fill": {
    "scene": "S05TopDownBottomUp",
    "file": "audio/segments/s05_fill.wav",
-   "duration": 15.928,
+   "duration": 18.951,
    "sentences": [
     {
      "text": "Perhatikan arah pengisiannya, dari kiri ke kanan.",
      "speech": "Perhatikan arah pengisiannya, dari kiri ke kanan.",
-     "start": 0.0,
-     "end": 2.778
+     "start": 0.114,
+     "end": 3.078
     },
     {
      "text": "dp[2] = 1, dp[3] = 2, dp[4] = 3, dan dp[5] = 5.",
      "speech": "d p 2 sama dengan 1, d p 3 sama dengan 2, d p 4 sama dengan 3, dan d p 5 sama dengan 5.",
-     "start": 3.058,
-     "end": 10.217
+     "start": 3.956,
+     "end": 11.417
     },
     {
      "text": "Tidak ada rekursi sama sekali.",
      "speech": "Tidak ada rekursi sama sekali.",
-     "start": 10.497,
-     "end": 11.994
+     "start": 12.28,
+     "end": 14.02
     },
     {
      "text": "Cukup satu loop, sehingga kompleksitas waktunya juga O(n).",
      "speech": "Cukup satu loop, sehingga kompleksitas waktunya juga big O n.",
-     "start": 12.274,
-     "end": 15.928
+     "start": 14.883,
+     "end": 18.801
     }
    ],
-   "sig": "090e5477f9879c163f3e110d9f52cc304c3e1994"
+   "sig": "c0e24394a2ac90d5"
   },
   "s05_table": {
    "scene": "S05TopDownBottomUp",
    "file": "audio/segments/s05_table.wav",
-   "duration": 21.403,
+   "duration": 24.596,
    "sentences": [
     {
      "text": "Lalu apa bedanya?",
      "speech": "Lalu apa bedanya?",
-     "start": 0.0,
-     "end": 0.951
+     "start": 0.1,
+     "end": 1.298
     },
     {
      "text": "Dari sisi komputasi, memoization hanya menghitung subproblem yang benar-benar dibutuhkan, sedangkan tabulation menghitung semua subproblem.",
      "speech": "Dari sisi komputasi, memoization hanya menghitung subproblem yang benar-benar dibutuhkan, sedangkan tabulation menghitung semua subproblem.",
-     "start": 1.231,
-     "end": 8.491
+     "start": 2.178,
+     "end": 9.781
     },
     {
      "text": "Dari sisi space, memoization butuh space sebesar jumlah subproblem yang dihitung, sedangkan tabulation sebesar ukuran tabel.",
      "speech": "Dari sisi space, memoization butuh space sebesar jumlah subproblem yang dihitung, sedangkan tabulation sebesar ukuran tabel.",
-     "start": 8.771,
-     "end": 15.301
+     "start": 10.657,
+     "end": 17.487
     },
     {
      "text": "Dan dari sisi overhead, memoization terbebani oleh rekursi, sementara tabulation cukup dengan iterasi.",
      "speech": "Dan dari sisi overhead, memoization terbebani oleh rekursi, sementara tabulation cukup dengan iterasi.",
-     "start": 15.581,
-     "end": 21.403
+     "start": 18.363,
+     "end": 24.446
     }
    ],
-   "sig": "c9ed949ae573e55c134a593a17d7b27e2561c61a"
+   "sig": "40e1a36ff380b703"
   },
   "s06_steps": {
    "scene": "S06DesignSteps",
    "file": "audio/segments/s06_steps.wav",
-   "duration": 22.66,
+   "duration": 26.721,
    "sentences": [
     {
      "text": "Secara umum, ada empat langkah untuk mendesain algoritma DP.",
      "speech": "Secara umum, ada empat langkah untuk mendesain algoritma DP.",
-     "start": 0.0,
-     "end": 3.446
+     "start": 0.101,
+     "end": 3.825
     },
     {
      "text": "Satu, characterize: pahami struktur dari solusi optimal.",
      "speech": "Satu, characterize: pahami struktur dari solusi optimal.",
-     "start": 3.726,
-     "end": 7.597
+     "start": 4.69,
+     "end": 8.878
     },
     {
      "text": "Dua, define: definisikan nilai solusi optimal secara rekursif.",
      "speech": "Dua, define: definisikan nilai solusi optimal secara rekursif.",
-     "start": 7.877,
-     "end": 12.231
+     "start": 9.755,
+     "end": 14.42
     },
     {
      "text": "Tiga, compute: hitung nilainya secara bottom-up, atau top-down dengan memoization.",
      "speech": "Tiga, compute: hitung nilainya secara bottom-up, atau top-down dengan memoization.",
-     "start": 12.511,
-     "end": 17.849
+     "start": 15.296,
+     "end": 20.902
     },
     {
      "text": "Empat, construct: bangun solusi optimalnya dari informasi yang sudah dihitung.",
      "speech": "Empat, construct: bangun solusi optimalnya dari informasi yang sudah dihitung.",
-     "start": 18.129,
-     "end": 22.661
+     "start": 21.765,
+     "end": 26.571
     }
    ],
-   "sig": "c2690788d7b995a45bc8df9dc6b1d84ab8dbe24c"
+   "sig": "b10f003cbfa79e4c"
   },
   "s06_apply": {
    "scene": "S06DesignSteps",
    "file": "audio/segments/s06_apply.wav",
-   "duration": 4.422,
+   "duration": 4.98,
    "sentences": [
     {
      "text": "Keempat langkah ini akan kita pakai satu per satu untuk menyelesaikan masalah utama kita hari ini.",
      "speech": "Keempat langkah ini akan kita pakai satu per satu untuk menyelesaikan masalah utama kita hari ini.",
-     "start": 0.0,
-     "end": 4.422
+     "start": 0.101,
+     "end": 4.83
     }
    ],
-   "sig": "5e073c7313a00095605bf83c7e42d24be61d7938"
+   "sig": "e82110758eb90abc"
   },
   "s07_statement": {
    "scene": "S07Problem",
    "file": "audio/segments/s07_statement.wav",
-   "duration": 13.559,
+   "duration": 15.897,
    "sentences": [
     {
      "text": "Masalahnya begini.",
      "speech": "Masalahnya begini.",
-     "start": 0.0,
-     "end": 1.084
+     "start": 0.1,
+     "end": 1.427
     },
     {
      "text": "Diberikan sebuah array A dari 1 sampai n berisi bilangan bulat, yang bisa saja negatif.",
      "speech": "Diberikan sebuah array A dari 1 sampai n berisi bilangan bulat, yang bisa saja negatif.",
-     "start": 1.364,
-     "end": 6.203
+     "start": 2.307,
+     "end": 7.487
     },
     {
      "text": "Cari subarray yang contiguous, artinya elemennya berurutan tanpa melompat, yaitu A[i..j], yang jumlahnya paling besar.",
      "speech": "Cari subarray yang contiguous, artinya elemennya berurutan tanpa melompat, yaitu A i sampai j, yang jumlahnya paling besar.",
-     "start": 6.483,
-     "end": 13.559
+     "start": 8.363,
+     "end": 15.747
     }
    ],
-   "sig": "0e7114aeb9fb71906610f35fefc0a16d1ac06535"
+   "sig": "086d6a4a2446ef99"
   },
   "s07_example": {
    "scene": "S07Problem",
    "file": "audio/segments/s07_example.wav",
-   "duration": 16.541,
+   "duration": 16.643,
    "sentences": [
     {
      "text": "Contohnya array ini: -2, 1, -3, 4, -1, 2, 1, -5, 4.",
      "speech": "Contohnya array ini: minus 2, 1, minus 3, 4, minus 1, 2, 1, minus 5, 4.",
-     "start": 0.0,
-     "end": 9.253
+     "start": 0.114,
+     "end": 9.534
     },
     {
      "text": "Jawabannya adalah A[4..7], yaitu 4, -1, 2, 1, dengan jumlah 6.",
      "speech": "Jawabannya adalah A 4 sampai 7, yaitu 4, minus 1, 2, 1, dengan jumlah 6.",
-     "start": 9.533,
-     "end": 16.541
+     "start": 9.535,
+     "end": 16.493
     }
    ],
-   "sig": "c5745d0a5638cbd4fae605e5fcd736aad8ece151"
+   "sig": "85065b091fbf67e1"
   },
   "s07_insight": {
    "scene": "S07Problem",
    "file": "audio/segments/s07_insight.wav",
-   "duration": 12.09,
+   "duration": 14.235,
    "sentences": [
     {
      "text": "Perhatikan, subarray terbaik ini justru mengandung -1.",
      "speech": "Perhatikan, subarray terbaik ini justru mengandung minus 1.",
-     "start": 0.0,
-     "end": 3.404
+     "start": 0.101,
+     "end": 3.748
     },
     {
      "text": "Jadi kita tidak bisa sekadar mengambil angka positif saja.",
      "speech": "Jadi kita tidak bisa sekadar mengambil angka positif saja.",
-     "start": 3.684,
-     "end": 6.503
+     "start": 4.613,
+     "end": 7.654
     },
     {
      "text": "Kadang, menelan angka negatif itu menguntungkan, asalkan setelahnya ada angka positif yang lebih besar.",
      "speech": "Kadang, menelan angka negatif itu menguntungkan, asalkan setelahnya ada angka positif yang lebih besar.",
-     "start": 6.783,
-     "end": 12.09
+     "start": 8.531,
+     "end": 14.085
     }
    ],
-   "sig": "d0ec541b9b631d8696bf0859cc38fa8c03913735"
+   "sig": "97576de63e8aa88e"
   },
   "s08_enum": {
    "scene": "S08Naive",
    "file": "audio/segments/s08_enum.wav",
-   "duration": 13.8,
+   "duration": 16.129,
    "sentences": [
     {
      "text": "Pendekatan paling naif adalah mencoba semua kemungkinan.",
      "speech": "Pendekatan paling naif adalah mencoba semua kemungkinan.",
-     "start": 0.0,
-     "end": 2.631
+     "start": 0.101,
+     "end": 2.974
     },
     {
      "text": "Untuk setiap index i, ada tepat i subarray yang berakhir di index tersebut.",
      "speech": "Untuk setiap index i, ada tepat i subarray yang berakhir di index tersebut.",
-     "start": 2.911,
-     "end": 6.858
+     "start": 3.853,
+     "end": 8.106
     },
     {
      "text": "Di index 1 hanya ada satu, di index 2 ada dua, di index 3 ada tiga, dan seterusnya sampai index n.",
      "speech": "Di index 1 hanya ada satu, di index 2 ada dua, di index 3 ada tiga, dan seterusnya sampai index n.",
-     "start": 7.138,
-     "end": 13.8
+     "start": 8.982,
+     "end": 15.979
     }
    ],
-   "sig": "a055c3e2cc813af4c057f72bdbb0a91f8a50eee8"
+   "sig": "b3a623541be1f280"
   },
   "s08_count": {
    "scene": "S08Naive",
    "file": "audio/segments/s08_count.wav",
-   "duration": 11.294,
+   "duration": 13.513,
    "sentences": [
     {
      "text": "Jadi total ada 1 + 2 + 3 + ... + n, atau O(n²) subarray.",
      "speech": "Jadi total ada 1 plus 2 plus 3 sampai n, atau big O n kuadrat subarray.",
-     "start": 0.0,
-     "end": 4.582
+     "start": 0.114,
+     "end": 5.05
     },
     {
      "text": "Untuk setiap subarray, menghitung jumlahnya butuh O(n).",
      "speech": "Untuk setiap subarray, menghitung jumlahnya butuh big O n.",
-     "start": 4.862,
-     "end": 8.214
+     "start": 5.928,
+     "end": 9.497
     },
     {
      "text": "Total kompleksitasnya menjadi O(n³).",
      "speech": "Total kompleksitasnya menjadi big O n pangkat tiga.",
-     "start": 8.494,
-     "end": 11.294
+     "start": 10.36,
+     "end": 13.363
     }
    ],
-   "sig": "b7e6b5190f3ffe88023a1763d8f6db6a5b9d9845"
+   "sig": "7fc1b75342352ce0"
   },
   "s08_code": {
    "scene": "S08Naive",
    "file": "audio/segments/s08_code.wav",
-   "duration": 15.384,
+   "duration": 18.385,
    "sentences": [
     {
      "text": "Ini pseudocode BRUTE-FORCE-SUM.",
      "speech": "Ini pseudocode brute force sum.",
-     "start": 0.0,
-     "end": 1.816
+     "start": 0.101,
+     "end": 2.137
     },
     {
      "text": "Loop pertama memilih end index, loop kedua mencari setiap kemungkinan start index, dan loop ketiga menjumlahkan elemen dari start sampai end.",
      "speech": "Loop pertama memilih end index, loop kedua mencari setiap kemungkinan start index, dan loop ketiga menjumlahkan elemen dari start sampai end.",
-     "start": 2.096,
-     "end": 9.191
+     "start": 3.015,
+     "end": 10.425
     },
     {
      "text": "Setiap hasilnya dibandingkan dengan global_max.",
      "speech": "Setiap hasilnya dibandingkan dengan global max.",
-     "start": 9.471,
-     "end": 11.856
+     "start": 11.288,
+     "end": 13.891
     },
     {
      "text": "Tiga loop bersarang, itulah sumber O(n³).",
      "speech": "Tiga loop bersarang, itulah sumber big O n pangkat tiga.",
-     "start": 12.136,
-     "end": 15.384
+     "start": 14.768,
+     "end": 18.235
     }
    ],
-   "sig": "fd3c4ed65fe36aa5d31a07d8c83782eaea3e9f6d"
+   "sig": "56db3b7952ecd769"
   },
   "s08_overlap": {
    "scene": "S08Naive",
    "file": "audio/segments/s08_overlap.wav",
-   "duration": 15.985,
+   "duration": 19.879,
    "sentences": [
     {
      "text": "Sekarang perhatikan baik-baik.",
      "speech": "Sekarang perhatikan baik-baik.",
-     "start": 0.0,
-     "end": 1.455
+     "start": 0.101,
+     "end": 1.84
     },
     {
      "text": "Saat i = 2, kita menjumlahkan A[1] dan A[2].",
      "speech": "Saat i sama dengan 2, kita menjumlahkan A 1 dan A 2.",
-     "start": 1.735,
-     "end": 5.185
+     "start": 2.705,
+     "end": 6.404
     },
     {
      "text": "Saat i = 3, kita kembali menjumlahkan A[1] dan A[2], baru kemudian menambahkan A[3].",
      "speech": "Saat i sama dengan 3, kita kembali menjumlahkan A 1 dan A 2, baru kemudian menambahkan A 3.",
-     "start": 5.465,
-     "end": 11.238
+     "start": 7.281,
+     "end": 13.338
     },
     {
      "text": "Bagian yang sama dihitung berulang kali.",
      "speech": "Bagian yang sama dihitung berulang kali.",
-     "start": 11.518,
-     "end": 13.405
+     "start": 14.2,
+     "end": 16.339
     },
     {
      "text": "Overlapping subproblems terjadi di mana-mana.",
      "speech": "Overlapping subproblems terjadi di mana-mana.",
-     "start": 13.684,
-     "end": 15.985
+     "start": 17.203,
+     "end": 19.729
     }
    ],
-   "sig": "0a0321cb83c9b1a294365b8c5d0124d7b07aa902"
+   "sig": "ef227de8776b8789"
   },
   "s08_idea": {
    "scene": "S08Naive",
    "file": "audio/segments/s08_idea.wav",
-   "duration": 9.43,
+   "duration": 10.884,
    "sentences": [
     {
      "text": "Kalau dilihat lebih dekat, sebenarnya kita hanya peduli pada jumlah maksimum yang berakhir di index sebelumnya.",
      "speech": "Kalau dilihat lebih dekat, sebenarnya kita hanya peduli pada jumlah maksimum yang berakhir di index sebelumnya.",
-     "start": 0.0,
-     "end": 5.139
+     "start": 0.101,
+     "end": 5.552
     },
     {
      "text": "Jadi, bagaimana kalau kita simpan jumlah maksimum untuk setiap ending index?",
      "speech": "Jadi, bagaimana kalau kita simpan jumlah maksimum untuk setiap ending index?",
-     "start": 5.419,
-     "end": 9.43
+     "start": 6.417,
+     "end": 10.734
     }
    ],
-   "sig": "07fad880e2344720e041f20b3341f281e9604cda"
+   "sig": "345ca284fdcab3a0"
   },
   "s09_def": {
    "scene": "S09Characterize",
    "file": "audio/segments/s09_def.wav",
-   "duration": 8.268,
+   "duration": 9.622,
    "sentences": [
     {
      "text": "Inilah langkah pertama, characterize.",
      "speech": "Inilah langkah pertama, characterize.",
-     "start": 0.0,
-     "end": 2.365
+     "start": 0.101,
+     "end": 2.717
     },
     {
      "text": "Kita definisikan subproblem-nya: dp[i] adalah jumlah subarray maksimum yang berakhir tepat di index i.",
      "speech": "Kita definisikan subproblem-nya: d p i adalah jumlah subarray maksimum yang berakhir tepat di index i.",
-     "start": 2.645,
-     "end": 8.268
+     "start": 3.595,
+     "end": 9.472
     }
    ],
-   "sig": "52c7ca3935ce80b6b737838ca6587e491cfa6ecc"
+   "sig": "2e255113c47c568d"
   },
   "s09_options": {
    "scene": "S09Characterize",
    "file": "audio/segments/s09_options.wav",
-   "duration": 16.636,
+   "duration": 17.766,
    "sentences": [
     {
      "text": "Subarray optimal yang berakhir di index i hanya punya dua pilihan struktural.",
      "speech": "Subarray optimal yang berakhir di index i hanya punya dua pilihan struktural.",
-     "start": 0.0,
-     "end": 3.728
+     "start": 0.101,
+     "end": 4.16
     },
     {
      "text": "Opsi A, extend: lanjutkan subarray optimal yang berakhir di i-1, lalu tambahkan A[i].",
      "speech": "Opsi A, extend: lanjutkan subarray optimal yang berakhir di i minus 1, lalu tambahkan A i.",
-     "start": 4.008,
-     "end": 10.063
+     "start": 5.039,
+     "end": 11.005
     },
     {
      "text": "Opsi B, start: mulai subarray yang benar-benar baru di index i, kalau opsi A memberikan nilai yang lebih kecil.",
      "speech": "Opsi B, start: mulai subarray yang benar-benar baru di index i, kalau opsi A memberikan nilai yang lebih kecil.",
-     "start": 10.343,
-     "end": 16.636
+     "start": 11.005,
+     "end": 17.616
     }
    ],
-   "sig": "13f7e5149897ed5af95d37c7b5aa2402c4f8e648"
+   "sig": "b9c889f746476b2d"
   },
   "s09_theorem": {
    "scene": "S09Characterize",
    "file": "audio/segments/s09_theorem.wav",
-   "duration": 9.238,
+   "duration": 10.6,
    "sentences": [
     {
      "text": "Dari sini kita mendapatkan teoremanya: solusi optimal untuk subproblem di index i mengandung solusi optimal untuk subproblem di index i-1.",
      "speech": "Dari sini kita mendapatkan teoremanya: solusi optimal untuk subproblem di index i mengandung solusi optimal untuk subproblem di index i minus 1.",
-     "start": 0.0,
-     "end": 7.361
+     "start": 0.114,
+     "end": 7.808
     },
     {
      "text": "Itulah optimal substructure.",
      "speech": "Itulah optimal substructure.",
-     "start": 7.641,
-     "end": 9.238
+     "start": 8.672,
+     "end": 10.45
     }
    ],
-   "sig": "bd2555a0e60a8e55720dc62e7164e51cfbc61495"
+   "sig": "2c679fe6c6bacf9c"
   },
   "s09_recurrence": {
    "scene": "S09Characterize",
    "file": "audio/segments/s09_recurrence.wav",
-   "duration": 12.301,
+   "duration": 13.062,
    "sentences": [
     {
      "text": "Langkah kedua, define.",
      "speech": "Langkah kedua, define.",
-     "start": 0.0,
-     "end": 1.785
+     "start": 0.101,
+     "end": 2.111
     },
     {
      "text": "Dua opsi tadi langsung kita tulis sebagai recurrence: dp[i] = max(A[i], dp[i-1] + A[i]).",
      "speech": "Dua opsi tadi langsung kita tulis sebagai recurrence: d p i sama dengan max dari A i dan d p i minus 1 plus A i.",
-     "start": 2.065,
-     "end": 8.487
+     "start": 2.99,
+     "end": 9.33
     },
     {
      "text": "Suku pertama adalah opsi start, suku kedua adalah opsi extend.",
      "speech": "Suku pertama adalah opsi start, suku kedua adalah opsi extend.",
-     "start": 8.767,
-     "end": 12.301
+     "start": 9.33,
+     "end": 12.912
     }
    ],
-   "sig": "2c604409132b818682d559bfe1458b82bdb2d08b"
+   "sig": "5633d639737be978"
   },
   "s09_base": {
    "scene": "S09Characterize",
    "file": "audio/segments/s09_base.wav",
-   "duration": 15.171,
+   "duration": 16.722,
    "sentences": [
     {
      "text": "Base case-nya, kita tidak bisa melihat ke belakang sebelum elemen pertama, jadi dp[1] = A[1].",
      "speech": "Base case-nya, kita tidak bisa melihat ke belakang sebelum elemen pertama, jadi d p 1 sama dengan A 1.",
-     "start": 0.0,
-     "end": 5.864
+     "start": 0.114,
+     "end": 6.287
     },
     {
      "text": "Dan karena subarray maksimum bisa berakhir di mana saja, jawaban akhirnya adalah GlobalMax, yaitu nilai maksimum dari semua dp[i], untuk i dari 1 sampai n.",
      "speech": "Dan karena subarray maksimum bisa berakhir di mana saja, jawaban akhirnya adalah GlobalMax, yaitu nilai maksimum dari semua d p i, untuk i dari 1 sampai n.",
-     "start": 6.144,
-     "end": 15.171
+     "start": 7.165,
+     "end": 16.572
     }
    ],
-   "sig": "ebca5fbfa8f4576f3561672ad97341fbd9e37da9"
+   "sig": "a65012988467e389"
   },
   "s10_code": {
    "scene": "S10Compute",
    "file": "audio/segments/s10_code.wav",
-   "duration": 13.986,
+   "duration": 16.954,
    "sentences": [
     {
      "text": "Langkah ketiga, compute.",
      "speech": "Langkah ketiga, compute.",
-     "start": 0.0,
-     "end": 1.8
+     "start": 0.1,
+     "end": 2.098
     },
     {
      "text": "Ini KADANE-TABLE.",
      "speech": "Ini Kadane table.",
-     "start": 2.08,
-     "end": 3.222
+     "start": 2.963,
+     "end": 4.329
     },
     {
      "text": "Kita isi dp[1] dengan A[1], dan global_max juga A[1].",
      "speech": "Kita isi d p 1 dengan A 1, dan global max juga A 1.",
-     "start": 3.502,
-     "end": 7.226
+     "start": 5.206,
+     "end": 9.149
     },
     {
      "text": "Lalu untuk i dari 2 sampai n, hitung dp[i] dengan recurrence tadi, dan perbarui global_max kalau dp[i] lebih besar.",
      "speech": "Lalu untuk i dari 2 sampai n, hitung d p i dengan recurrence tadi, dan perbarui global max kalau d p i lebih besar.",
-     "start": 7.506,
-     "end": 13.986
+     "start": 10.026,
+     "end": 16.804
     }
    ],
-   "sig": "a5e0b12e99c9f20f604abfe96e5fda9b9ad79996"
+   "sig": "a444cfc00df6cca9"
   },
   "s10_fill1": {
    "scene": "S10Compute",
    "file": "audio/segments/s10_fill1.wav",
-   "duration": 16.627,
+   "duration": 19.699,
    "sentences": [
     {
      "text": "Mari kita jalankan pada contoh kita.",
      "speech": "Mari kita jalankan pada contoh kita.",
-     "start": 0.0,
-     "end": 1.816
+     "start": 0.1,
+     "end": 2.162
     },
     {
      "text": "dp[1] = -2.",
      "speech": "d p 1 sama dengan minus 2.",
-     "start": 2.096,
-     "end": 3.995
+     "start": 3.027,
+     "end": 5.102
     },
     {
      "text": "dp[2] = max(1, -2 + 1) = 1, artinya kita mulai baru.",
      "speech": "d p 2 sama dengan max dari 1 dan minus 2 plus 1, hasilnya 1, artinya kita mulai baru.",
-     "start": 4.275,
-     "end": 10.098
+     "start": 5.979,
+     "end": 12.062
     },
     {
      "text": "dp[3] = max(-3, 1 + (-3)) = -2, artinya kita extend.",
      "speech": "d p 3 sama dengan max dari minus 3 dan 1 plus minus 3, hasilnya minus 2, artinya kita extend.",
-     "start": 10.378,
-     "end": 16.627
+     "start": 12.938,
+     "end": 19.549
     }
    ],
-   "sig": "7508eb3a8f1e105b26fbef8fb0ceca1b66e25c57"
+   "sig": "3a7185f1dc0a70ea"
   },
   "s10_fill2": {
    "scene": "S10Compute",
    "file": "audio/segments/s10_fill2.wav",
-   "duration": 20.673,
+   "duration": 23.848,
    "sentences": [
     {
      "text": "dp[4] = max(4, -2 + 4) = 4, mulai baru lagi.",
      "speech": "d p 4 sama dengan max dari 4 dan minus 2 plus 4, hasilnya 4, mulai baru lagi.",
-     "start": 0.0,
-     "end": 5.182
+     "start": 0.114,
+     "end": 5.63
     },
     {
      "text": "Lalu kita terus extend: dp[5] = 3, dp[6] = 5, dan dp[7] = 6.",
      "speech": "Lalu kita terus extend: d p 5 sama dengan 3, d p 6 sama dengan 5, dan d p 7 sama dengan 6.",
-     "start": 5.462,
-     "end": 12.44
+     "start": 6.508,
+     "end": 13.763
     },
     {
      "text": "Kemudian dp[8] = 1, dan dp[9] = 5.",
      "speech": "Kemudian d p 8 sama dengan 1, dan d p 9 sama dengan 5.",
-     "start": 12.72,
-     "end": 16.894
+     "start": 14.639,
+     "end": 19.085
     },
     {
      "text": "Nilai maksimum di tabel adalah 6, sesuai dengan jawaban kita.",
      "speech": "Nilai maksimum di tabel adalah 6, sesuai dengan jawaban kita.",
-     "start": 17.174,
-     "end": 20.673
+     "start": 19.961,
+     "end": 23.698
     }
    ],
-   "sig": "d4ba6313aa811c65ccfd18f4af56aa50facef506"
+   "sig": "a6bb1877778f4799"
   },
   "s10_observe": {
    "scene": "S10Compute",
    "file": "audio/segments/s10_observe.wav",
-   "duration": 9.636,
+   "duration": 11.799,
    "sentences": [
     {
      "text": "Perhatikan, untuk menghitung dp[i], kita hanya pernah melihat dp[i-1].",
      "speech": "Perhatikan, untuk menghitung d p i, kita hanya pernah melihat d p i minus 1.",
-     "start": 0.0,
-     "end": 4.606
+     "start": 0.114,
+     "end": 4.947
     },
     {
      "text": "Jadi seluruh array sebenarnya tidak perlu disimpan.",
      "speech": "Jadi seluruh array sebenarnya tidak perlu disimpan.",
-     "start": 4.886,
-     "end": 7.44
+     "start": 5.811,
+     "end": 8.62
     },
     {
      "text": "Cukup satu variabel untuk melacak state.",
      "speech": "Cukup satu variabel untuk melacak state.",
-     "start": 7.72,
-     "end": 9.636
+     "start": 9.484,
+     "end": 11.649
     }
    ],
-   "sig": "6cbbd6369316ace02a7a4b7391efedad0aca43ee"
+   "sig": "0929c10898224aa4"
   },
   "s10_space": {
    "scene": "S10Compute",
    "file": "audio/segments/s10_space.wav",
-   "duration": 15.809,
+   "duration": 17.495,
    "sentences": [
     {
      "text": "Hasilnya adalah KADANE-SPACE-OPTIMIZED.",
      "speech": "Hasilnya adalah Kadane space optimized.",
-     "start": 0.0,
-     "end": 2.096
+     "start": 0.101,
+     "end": 2.523
     },
     {
      "text": "Array dp diganti dengan satu variabel, curr_max.",
      "speech": "Array d p diganti dengan satu variabel, curr max.",
-     "start": 2.376,
-     "end": 5.486
+     "start": 3.402,
+     "end": 6.727
     },
     {
      "text": "Dengan begitu, space complexity turun dari O(n) menjadi O(1), sementara waktunya tetap O(n).",
      "speech": "Dengan begitu, space complexity turun dari big O n menjadi big O satu, sementara waktunya tetap big O n.",
-     "start": 5.766,
-     "end": 11.977
+     "start": 7.603,
+     "end": 13.634
     },
     {
      "text": "Pelajaran pentingnya: algoritma DP tidak selalu tentang tabel.",
      "speech": "Pelajaran pentingnya: algoritma DP tidak selalu tentang tabel.",
-     "start": 12.257,
-     "end": 15.809
+     "start": 13.634,
+     "end": 17.345
     }
    ],
-   "sig": "a79326cf3de3b89594f5f671e6c49d47fcaa7faf"
+   "sig": "86ac8ca2aa63bcc0"
   },
   "s10_fib": {
    "scene": "S10Compute",
    "file": "audio/segments/s10_fib.wav",
-   "duration": 10.319,
+   "duration": 11.748,
    "sentences": [
     {
      "text": "Sebenarnya, kalian mungkin sudah pernah melakukan trik ini di Fibonacci.",
      "speech": "Sebenarnya, kalian mungkin sudah pernah melakukan trik ini di Fibonacci.",
-     "start": 0.0,
-     "end": 3.735
+     "start": 0.101,
+     "end": 4.134
     },
     {
      "text": "FIB-SPACE-OPTIMIZED hanya menyimpan dua nilai terakhir, prev1 dan prev2, lalu menggesernya di setiap iterasi.",
      "speech": "fib space optimized hanya menyimpan dua nilai terakhir, prev1 dan prev2, lalu menggesernya di setiap iterasi.",
-     "start": 4.015,
-     "end": 10.319
+     "start": 5.013,
+     "end": 11.598
     }
    ],
-   "sig": "12f1d554f75e1e2160b47e2164c6c468064f863f"
+   "sig": "d249ffb2bcdc1f29"
   },
   "s11_question": {
    "scene": "S11Construct",
    "file": "audio/segments/s11_question.wav",
-   "duration": 11.914,
+   "duration": 14.879,
    "sentences": [
     {
      "text": "Sekarang kita sudah punya nilai optimalnya.",
      "speech": "Sekarang kita sudah punya nilai optimalnya.",
-     "start": 0.0,
-     "end": 1.965
+     "start": 0.101,
+     "end": 2.304
     },
     {
      "text": "Tapi bagaimana kalau kita ingin tahu, subarray mana yang menghasilkan nilai itu?",
      "speech": "Tapi bagaimana kalau kita ingin tahu, subarray mana yang menghasilkan nilai itu?",
-     "start": 2.245,
-     "end": 6.118
+     "start": 3.183,
+     "end": 7.294
     },
     {
      "text": "Untuk itu kita butuh informasi index.",
      "speech": "Untuk itu kita butuh informasi index.",
-     "start": 6.398,
-     "end": 8.324
+     "start": 8.156,
+     "end": 10.333
     },
     {
      "text": "Jadi, kita lacak batas index setiap kali nilainya berubah.",
      "speech": "Jadi, kita lacak batas index setiap kali nilainya berubah.",
-     "start": 8.604,
-     "end": 11.914
+     "start": 11.198,
+     "end": 14.729
     }
    ],
-   "sig": "fc28c7075a2b0dc8891e841a164f8b0fce1c5eaf"
+   "sig": "f180372a6fd62e4e"
   },
   "s11_rules": {
    "scene": "S11Construct",
    "file": "audio/segments/s11_rules.wav",
-   "duration": 11.415,
+   "duration": 13.591,
    "sentences": [
     {
      "text": "Ada dua aturan.",
      "speech": "Ada dua aturan.",
-     "start": 0.0,
-     "end": 0.939
+     "start": 0.1,
+     "end": 1.26
     },
     {
      "text": "Expansion rule: kalau curr_max di-reset, batas awal bergeser ke index saat ini.",
      "speech": "Expansion rule: kalau curr max di-reset, batas awal bergeser ke index saat ini.",
-     "start": 1.219,
-     "end": 5.799
+     "start": 2.139,
+     "end": 6.985
     },
     {
      "text": "Global rule: kalau tercapai global maximum yang baru, simpan batas start dan end secara permanen.",
      "speech": "Global rule: kalau tercapai global maximum yang baru, simpan batas start dan end secara permanen.",
-     "start": 6.079,
-     "end": 11.415
+     "start": 7.861,
+     "end": 13.441
     }
    ],
-   "sig": "8e7e19e334d00e3262d140e7c3892b9d25b697f2"
+   "sig": "2bbcc1788483670c"
   },
   "s11_code": {
    "scene": "S11Construct",
    "file": "audio/segments/s11_code.wav",
-   "duration": 15.935,
+   "duration": 19.183,
    "sentences": [
     {
      "text": "Ini KADANE-CONSTRUCT.",
      "speech": "Ini Kadane construct.",
-     "start": 0.0,
-     "end": 1.11
+     "start": 0.1,
+     "end": 1.518
     },
     {
      "text": "Kita tambahkan tiga variabel: start, end, dan temp_start.",
      "speech": "Kita tambahkan tiga variabel: start, end, dan temp start.",
-     "start": 1.39,
-     "end": 5.446
+     "start": 2.383,
+     "end": 6.79
     },
     {
      "text": "Saat A[i] lebih besar dari curr_max + A[i], kita reset, dan temp_start menjadi i.",
      "speech": "Saat A i lebih besar dari curr max plus A i, kita reset, dan temp start menjadi i.",
-     "start": 5.726,
-     "end": 10.517
+     "start": 7.668,
+     "end": 12.732
     },
     {
      "text": "Saat curr_max melampaui global_max, start diisi dengan temp_start, dan end diisi dengan i.",
      "speech": "Saat curr max melampaui global max, start diisi dengan temp start, dan end diisi dengan i.",
-     "start": 10.797,
-     "end": 15.935
+     "start": 13.608,
+     "end": 19.033
     }
    ],
-   "sig": "47789700f8b44d5ba50b79c2a695b17dafa5d0c5"
+   "sig": "09736ab03a89e58a"
   },
   "s11_init": {
    "scene": "S11Construct",
    "file": "audio/segments/s11_init.wav",
-   "duration": 12.894,
+   "duration": 14.338,
    "sentences": [
     {
      "text": "Mari kita trace pada array -2, 1, -3, 4, -1, 2, 1.",
      "speech": "Mari kita trace pada array minus 2, 1, minus 3, 4, minus 1, 2, 1.",
-     "start": 0.0,
-     "end": 7.11
+     "start": 0.114,
+     "end": 7.55
     },
     {
      "text": "Inisialisasi: curr_max dan global_max sama-sama -2, dan subarray-nya hanya -2.",
      "speech": "Inisialisasi: curr max dan global max sama-sama minus 2, dan subarray-nya hanya minus 2.",
-     "start": 7.39,
-     "end": 12.894
+     "start": 8.428,
+     "end": 14.188
     }
    ],
-   "sig": "5fc8f8608ad7b4f7974ece5107f33be9762f3f10"
+   "sig": "e6f6893e1fed01db"
   },
   "s11_i23": {
    "scene": "S11Construct",
    "file": "audio/segments/s11_i23.wav",
-   "duration": 17.195,
+   "duration": 20.265,
    "sentences": [
     {
      "text": "i = 2: max(1, -2 + 1) = 1.",
      "speech": "i sama dengan 2: max dari 1 dan minus 2 plus 1, hasilnya 1.",
-     "start": 0.0,
-     "end": 4.5
+     "start": 0.114,
+     "end": 4.882
     },
     {
      "text": "Ini reset, temp_start pindah ke 2, dan global_max naik menjadi 1.",
      "speech": "Ini reset, temp start pindah ke 2, dan global max naik menjadi 1.",
-     "start": 4.78,
-     "end": 8.936
+     "start": 5.76,
+     "end": 10.167
     },
     {
      "text": "i = 3: max(-3, 1 + (-3)) = -2.",
      "speech": "i sama dengan 3: max dari minus 3 dan 1 plus minus 3, hasilnya minus 2.",
-     "start": 9.216,
-     "end": 14.369
+     "start": 11.044,
+     "end": 16.482
     },
     {
      "text": "Kita extend, tapi global_max tetap 1.",
      "speech": "Kita extend, tapi global max tetap 1.",
-     "start": 14.649,
-     "end": 17.195
+     "start": 17.345,
+     "end": 20.115
     }
    ],
-   "sig": "00e05d723528ad74a0dbe0b505ef32e2efbb12c7"
+   "sig": "c89075b9384afaf2"
   },
   "s11_i45": {
    "scene": "S11Construct",
    "file": "audio/segments/s11_i45.wav",
-   "duration": 13.462,
+   "duration": 15.897,
    "sentences": [
     {
      "text": "i = 4: max(4, -2 + 4) = 4.",
      "speech": "i sama dengan 4: max dari 4 dan minus 2 plus 4, hasilnya 4.",
-     "start": 0.0,
-     "end": 4.265
+     "start": 0.114,
+     "end": 4.728
     },
     {
      "text": "Reset lagi, temp_start pindah ke 4, dan global_max naik menjadi 4.",
      "speech": "Reset lagi, temp start pindah ke 4, dan global max naik menjadi 4.",
-     "start": 4.545,
-     "end": 8.715
+     "start": 5.592,
+     "end": 10.102
     },
     {
      "text": "i = 5: curr_max menjadi 3, sedangkan global_max tetap 4.",
      "speech": "i sama dengan 5: curr max menjadi 3, sedangkan global max tetap 4.",
-     "start": 8.995,
-     "end": 13.462
+     "start": 10.979,
+     "end": 15.747
     }
    ],
-   "sig": "06794bbc0a15553ac6b2ab9528a02c89f6d50415"
+   "sig": "0d24986338eba843"
   },
   "s11_i67": {
    "scene": "S11Construct",
    "file": "audio/segments/s11_i67.wav",
-   "duration": 18.053,
+   "duration": 20.536,
    "sentences": [
     {
      "text": "i = 6: curr_max menjadi 5, dan global_max ikut naik.",
      "speech": "i sama dengan 6: curr max menjadi 5, dan global max ikut naik.",
-     "start": 0.0,
-     "end": 4.069
+     "start": 0.114,
+     "end": 4.535
     },
     {
      "text": "Terakhir i = 7: curr_max menjadi 6, dan global_max naik menjadi 6.",
      "speech": "Terakhir i sama dengan 7: curr max menjadi 6, dan global max naik menjadi 6.",
-     "start": 4.349,
-     "end": 9.187
+     "start": 5.399,
+     "end": 10.528
     },
     {
      "text": "Jadi start = 4, end = 7, dan subarray-nya adalah 4, -1, 2, 1, dengan jumlah 6.",
      "speech": "Jadi start sama dengan 4, end sama dengan 7, dan subarray-nya adalah 4, minus 1, 2, 1, dengan jumlah 6.",
-     "start": 9.467,
-     "end": 18.053
+     "start": 11.391,
+     "end": 20.386
     }
    ],
-   "sig": "9fd789a997c48122c891427411a379fa3b5c1695"
+   "sig": "d0203287c0c7a9da"
   },
   "s12_props": {
    "scene": "S12WhyNotGreedy",
    "file": "audio/segments/s12_props.wav",
-   "duration": 18.108,
+   "duration": 21.245,
    "sentences": [
     {
      "text": "Sekarang pertanyaan terakhir: kenapa Kadane itu DP, dan bukan greedy?",
      "speech": "Sekarang pertanyaan terakhir: kenapa Kadane itu DP, dan bukan greedy?",
-     "start": 0.0,
-     "end": 4.059
+     "start": 0.101,
+     "end": 4.521
     },
     {
      "text": "Pertama, Kadane memenuhi kedua properti DP.",
      "speech": "Pertama, Kadane memenuhi kedua properti DP.",
-     "start": 4.339,
-     "end": 7.255
+     "start": 5.386,
+     "end": 8.504
     },
     {
      "text": "Optimal substructure: subarray optimal yang berakhir di i adalah A[i] sendirian, atau A[i] yang ditempelkan ke subarray optimal yang berakhir di i-1.",
      "speech": "Optimal substructure: subarray optimal yang berakhir di i adalah A i sendirian, atau A i yang ditempelkan ke subarray optimal yang berakhir di i minus 1.",
-     "start": 7.535,
-     "end": 15.556
+     "start": 9.381,
+     "end": 17.719
     },
     {
      "text": "Solusi subproblem-nya dipakai secara langsung.",
      "speech": "Solusi subproblem-nya dipakai secara langsung.",
-     "start": 15.836,
-     "end": 18.108
+     "start": 18.582,
+     "end": 21.095
     }
    ],
-   "sig": "e6c70163106e2ce0fbd9f51b46d32267afcc975e"
+   "sig": "934314bab9855489"
   },
   "s12_overlap": {
    "scene": "S12WhyNotGreedy",
    "file": "audio/segments/s12_overlap.wav",
-   "duration": 14.203,
+   "duration": 15.73,
    "sentences": [
     {
      "text": "Overlapping subproblems: kalau untuk setiap i kita bertanya, berapa subarray terbaik yang berakhir di i, lalu menghitungnya dari nol setiap kali, kita akan memeriksa prefix yang sama berulang-ulang.",
      "speech": "Overlapping subproblems: kalau untuk setiap i kita bertanya, berapa subarray terbaik yang berakhir di i, lalu menghitungnya dari nol setiap kali, kita akan memeriksa prefix yang sama berulang-ulang.",
-     "start": 0.0,
-     "end": 10.222
+     "start": 0.114,
+     "end": 10.772
     },
     {
      "text": "DP menghindari hal itu dengan dp[i-1], atau curr_max.",
      "speech": "DP menghindari hal itu dengan d p i minus 1, atau curr max.",
-     "start": 10.502,
-     "end": 14.203
+     "start": 11.649,
+     "end": 15.58
     }
    ],
-   "sig": "0194eb295bd0c872806e57415cf2262e2a4995df"
+   "sig": "beff3dc9febdf2b9"
   },
   "s12_greedy": {
    "scene": "S12WhyNotGreedy",
    "file": "audio/segments/s12_greedy.wav",
-   "duration": 13.926,
+   "duration": 16.323,
    "sentences": [
     {
      "text": "Algoritma greedy akan melakukan satu kali pass dengan aturan yang tetap.",
      "speech": "Algoritma greedy akan melakukan satu kali pass dengan aturan yang tetap.",
-     "start": 0.0,
-     "end": 3.287
+     "start": 0.101,
+     "end": 3.709
     },
     {
      "text": "Misalnya aturannya: ambil elemen selama positif, dan reset ketika bertemu angka negatif.",
      "speech": "Misalnya aturannya: ambil elemen selama positif, dan reset ketika bertemu angka negatif.",
-     "start": 3.567,
-     "end": 8.703
+     "start": 4.588,
+     "end": 10.026
     },
     {
      "text": "Coba kita jalankan pada A = -1, 3, -1, 4.",
      "speech": "Coba kita jalankan pada A sama dengan minus 1, 3, minus 1, 4.",
-     "start": 8.983,
-     "end": 13.926
+     "start": 10.902,
+     "end": 16.173
     }
    ],
-   "sig": "681aa0be12dd6d4fd8a74fbebdbae9d1dcb02970"
+   "sig": "016db22894b5e257"
   },
   "s12_fail": {
    "scene": "S12WhyNotGreedy",
    "file": "audio/segments/s12_fail.wav",
-   "duration": 13.572,
+   "duration": 17.584,
    "sentences": [
     {
      "text": "Greedy mengambil 3, lalu bertemu -1 di index 3 dan langsung reset.",
      "speech": "Greedy mengambil 3, lalu bertemu minus 1 di index 3 dan langsung reset.",
-     "start": 0.0,
-     "end": 4.304
+     "start": 0.101,
+     "end": 4.676
     },
     {
      "text": "Setelah itu ia mengambil 4.",
      "speech": "Setelah itu ia mengambil 4.",
-     "start": 4.584,
-     "end": 6.068
+     "start": 5.54,
+     "end": 7.357
     },
     {
      "text": "Hasil terbaiknya hanya 4.",
      "speech": "Hasil terbaiknya hanya 4.",
-     "start": 6.348,
-     "end": 7.718
+     "start": 8.22,
+     "end": 9.947
     },
     {
      "text": "Padahal subarray 3, -1, 4 memberikan jumlah 6.",
      "speech": "Padahal subarray 3, minus 1, 4 memberikan jumlah 6.",
-     "start": 7.998,
-     "end": 12.054
+     "start": 10.825,
+     "end": 15.103
     },
     {
      "text": "Greedy melewatkannya.",
      "speech": "Greedy melewatkannya.",
-     "start": 12.334,
-     "end": 13.572
+     "start": 15.965,
+     "end": 17.434
     }
    ],
-   "sig": "fb2dabe2f9e99de8f22127485eb094a92b4443ff"
+   "sig": "55796c4da92d7e96"
   },
   "s12_kadane": {
    "scene": "S12WhyNotGreedy",
    "file": "audio/segments/s12_kadane.wav",
-   "duration": 23.01,
+   "duration": 26.915,
    "sentences": [
     {
      "text": "Kadane berbeda.",
      "speech": "Kadane berbeda.",
-     "start": 0.0,
-     "end": 0.969
+     "start": 0.1,
+     "end": 1.286
     },
     {
      "text": "Di index 3, curr_max = 3 + (-1) = 2, masih lebih baik daripada mulai baru dari -1, jadi ia extend.",
      "speech": "Di index 3, curr max sama dengan 3 plus minus 1 sama dengan 2, masih lebih baik daripada mulai baru dari minus 1, jadi ia extend.",
-     "start": 1.249,
-     "end": 8.883
+     "start": 2.165,
+     "end": 10.219
     },
     {
      "text": "Di index 4, 2 + 4 = 6.",
      "speech": "Di index 4, 2 plus 4 sama dengan 6.",
-     "start": 9.163,
-     "end": 11.949
+     "start": 11.082,
+     "end": 14.046
     },
     {
      "text": "Kadane membuat keputusan di setiap langkah, extend atau restart, berdasarkan state yang sudah dihitung sebelumnya, yaitu dp[i-1].",
      "speech": "Kadane membuat keputusan di setiap langkah, extend atau restart, berdasarkan state yang sudah dihitung sebelumnya, yaitu d p i minus 1.",
-     "start": 12.229,
-     "end": 19.791
+     "start": 14.923,
+     "end": 22.732
     },
     {
      "text": "Itu adalah keputusan DP, bukan pilihan greedy.",
      "speech": "Itu adalah keputusan DP, bukan pilihan greedy.",
-     "start": 20.071,
-     "end": 23.01
+     "start": 23.608,
+     "end": 26.765
     }
    ],
-   "sig": "42c0a5c9794c61ba8aad506835421eddf91d31b4"
+   "sig": "40696355e393cbcb"
   },
   "s12_table": {
    "scene": "S12WhyNotGreedy",
    "file": "audio/segments/s12_table.wav",
-   "duration": 20.221,
+   "duration": 23.32,
    "sentences": [
     {
      "text": "Ringkasnya begini.",
      "speech": "Ringkasnya begini.",
-     "start": 0.0,
-     "end": 1.034
+     "start": 0.1,
+     "end": 1.402
     },
     {
      "text": "Greedy memutuskan hanya dari input mentah atau heuristik di langkah saat ini, sedangkan DP memakai state subproblem yang sudah dihitung.",
      "speech": "Greedy memutuskan hanya dari input mentah atau heuristik di langkah saat ini, sedangkan DP memakai state subproblem yang sudah dihitung.",
-     "start": 1.314,
-     "end": 7.975
+     "start": 2.268,
+     "end": 9.214
     },
     {
      "text": "Greedy memilih sebelum menyelesaikan subproblem, sementara DP memilih setelah mengevaluasi subproblem sebelumnya.",
      "speech": "Greedy memilih sebelum menyelesaikan subproblem, sementara DP memilih setelah mengevaluasi subproblem sebelumnya.",
-     "start": 8.255,
-     "end": 14.132
+     "start": 10.077,
+     "end": 16.223
     },
     {
      "text": "Greedy tidak pernah melihat ke belakang, sedangkan DP justru harus membaca tabel atau state yang sudah diselesaikan.",
      "speech": "Greedy tidak pernah melihat ke belakang, sedangkan DP justru harus membaca tabel atau state yang sudah diselesaikan.",
-     "start": 14.412,
-     "end": 20.221
+     "start": 17.101,
+     "end": 23.17
     }
    ],
-   "sig": "588c32d73bc047f30db8bb7bfb80f9ee95b63e3e"
+   "sig": "3ec0a49442326e29"
   },
   "s12_examples": {
    "scene": "S12WhyNotGreedy",
    "file": "audio/segments/s12_examples.wav",
-   "duration": 12.662,
+   "duration": 14.119,
    "sentences": [
     {
      "text": "Contoh algoritma greedy adalah Activity Selection, Fractional Knapsack, Huffman Code, dan Dijkstra.",
      "speech": "Contoh algoritma greedy adalah Activity Selection, Fractional Knapsack, Huffman Code, dan Dijkstra.",
-     "start": 0.0,
-     "end": 5.98
+     "start": 0.114,
+     "end": 6.364
     },
     {
      "text": "Sedangkan contoh DP adalah Max Subarray Sum, 0/1 Knapsack, dan Coin Change untuk sistem koin yang non-canonical.",
      "speech": "Sedangkan contoh DP adalah Max Subarray Sum, zero one Knapsack, dan Coin Change untuk sistem koin yang non-canonical.",
-     "start": 6.26,
-     "end": 12.662
+     "start": 7.242,
+     "end": 13.969
     }
    ],
-   "sig": "4ce69741437d75753bf41dad8dc9968bd5546cad"
+   "sig": "ea709567bfe45e31"
   },
   "s13_a": {
    "scene": "S13Summary",
    "file": "audio/segments/s13_a.wav",
-   "duration": 17.14,
+   "duration": 19.57,
    "sentences": [
     {
      "text": "Mari kita rangkum.",
      "speech": "Mari kita rangkum.",
-     "start": 0.0,
-     "end": 0.994
+     "start": 0.1,
+     "end": 1.35
     },
     {
      "text": "Satu, DP menyelesaikan masalah dengan meng-cache solusi dari overlapping subproblems, dan membutuhkan optimal substructure.",
      "speech": "Satu, DP menyelesaikan masalah dengan meng-cache solusi dari overlapping subproblems, dan membutuhkan optimal substructure.",
-     "start": 1.274,
-     "end": 8.023
+     "start": 2.229,
+     "end": 9.278
     },
     {
      "text": "Dua, memoization bersifat top-down, yaitu meng-cache pemanggilan rekursif, sedangkan tabulation bersifat bottom-up, yaitu mengisi tabel secara iteratif.",
      "speech": "Dua, memoization bersifat top-down, yaitu meng-cache pemanggilan rekursif, sedangkan tabulation bersifat bottom-up, yaitu mengisi tabel secara iteratif.",
-     "start": 8.303,
-     "end": 17.14
+     "start": 10.155,
+     "end": 19.42
     }
    ],
-   "sig": "f7bd38d38e6446e8be81092a17dbc733a8bf771e"
+   "sig": "1902c0d288002d34"
   },
   "s13_b": {
    "scene": "S13Summary",
    "file": "audio/segments/s13_b.wav",
-   "duration": 18.919,
+   "duration": 20.575,
    "sentences": [
     {
      "text": "Tiga, algoritma Kadane: dp[i] = max(A[i], dp[i-1] + A[i]), dengan waktu O(n), dan space O(1) pada versi yang dioptimasi.",
      "speech": "Tiga, algoritma Kadane: d p i sama dengan max dari A i dan d p i minus 1 plus A i, dengan waktu big O n, dan space big O satu pada versi yang dioptimasi.",
-     "start": 0.0,
-     "end": 9.641
+     "start": 0.114,
+     "end": 10.179
     },
     {
      "text": "Empat, Kadane adalah DP karena setiap dp[i] bergantung pada dp[i-1], dan keputusannya tidak bisa dibuat secara greedy tanpa mengetahui state optimal sebelumnya.",
      "speech": "Empat, Kadane adalah DP karena setiap d p i bergantung pada d p i minus 1, dan keputusannya tidak bisa dibuat secara greedy tanpa mengetahui state optimal sebelumnya.",
-     "start": 9.921,
-     "end": 18.919
+     "start": 11.057,
+     "end": 20.425
     }
    ],
-   "sig": "162b89897611538d8d1ed14705508eb9f7ceef76"
+   "sig": "96868b6c8622ff12"
   },
   "s14_stairs": {
    "scene": "S14Exercise",
    "file": "audio/segments/s14_stairs.wav",
-   "duration": 19.331,
+   "duration": 26.297,
    "sentences": [
     {
      "text": "Sebelum kita tutup, ada dua latihan untuk kalian.",
      "speech": "Sebelum kita tutup, ada dua latihan untuk kalian.",
-     "start": 0.0,
-     "end": 0.498
+     "start": 0.101,
+     "end": 3.026
     },
     {
      "text": "Latihan pertama, Climbing Stairs.",
      "speech": "Latihan pertama, Climbing Stairs.",
-     "start": 0.778,
-     "end": 3.074
+     "start": 3.891,
+     "end": 6.378
     },
     {
      "text": "Ada sebuah tangga dengan n anak tangga.",
      "speech": "Ada sebuah tangga dengan n anak tangga.",
-     "start": 3.354,
-     "end": 5.301
+     "start": 7.242,
+     "end": 9.419
     },
     {
      "text": "Setiap kali melangkah, kalian boleh naik 1 atau 2 anak tangga.",
      "speech": "Setiap kali melangkah, kalian boleh naik 1 atau 2 anak tangga.",
-     "start": 5.581,
-     "end": 8.984
+     "start": 10.283,
+     "end": 13.981
     },
     {
      "text": "Berapa banyak cara berbeda untuk sampai ke puncak?",
      "speech": "Berapa banyak cara berbeda untuk sampai ke puncak?",
-     "start": 9.264,
-     "end": 11.391
+     "start": 14.844,
+     "end": 17.293
     },
     {
      "text": "Contohnya, untuk n = 3 jawabannya 3, yaitu 1+1+1, 1+2, atau 2+1.",
      "speech": "Contohnya, untuk n sama dengan 3 jawabannya 3, yaitu 1 plus 1 plus 1, 1 plus 2, atau 2 plus 1.",
-     "start": 11.671,
-     "end": 19.331
+     "start": 18.17,
+     "end": 26.147
     }
    ],
-   "sig": "0c117ec2e271f90f158a7edcc5d05cd9c76bb443"
+   "sig": "19a0a02cb68536f7"
   },
   "s14_stairs_task": {
    "scene": "S14Exercise",
    "file": "audio/segments/s14_stairs_task.wav",
-   "duration": 11.541,
+   "duration": 13.795,
    "sentences": [
     {
      "text": "Tugas kalian: tuliskan pseudocode-nya dengan pendekatan DP menggunakan empat langkah tadi.",
      "speech": "Tugas kalian: tuliskan pseudocode-nya dengan pendekatan DP menggunakan empat langkah tadi.",
-     "start": 0.0,
-     "end": 4.71
+     "start": 0.101,
+     "end": 5.101
     },
     {
      "text": "Petunjuknya, pikirkan dari anak tangga mana saja kalian bisa sampai ke anak tangga terakhir.",
      "speech": "Petunjuknya, pikirkan dari anak tangga mana saja kalian bisa sampai ke anak tangga terakhir.",
-     "start": 4.99,
-     "end": 9.438
+     "start": 5.979,
+     "end": 10.722
     },
     {
      "text": "Mungkin polanya akan terasa familiar.",
      "speech": "Mungkin polanya akan terasa familiar.",
-     "start": 9.718,
-     "end": 11.541
+     "start": 11.584,
+     "end": 13.645
     }
    ],
-   "sig": "ec047fd9ab0c5604f5027ec88600214673045195"
+   "sig": "de3cc9a20b4d53f8"
   },
   "s14_product": {
    "scene": "S14Exercise",
    "file": "audio/segments/s14_product.wav",
-   "duration": 15.992,
+   "duration": 18.256,
    "sentences": [
     {
      "text": "Latihan kedua, Maximum Product Subarray.",
      "speech": "Latihan kedua, Maximum Product Subarray.",
-     "start": 0.0,
-     "end": 2.649
+     "start": 0.101,
+     "end": 2.974
     },
     {
      "text": "Cari subarray contiguous yang hasil kalinya paling besar.",
      "speech": "Cari subarray contiguous yang hasil kalinya paling besar.",
-     "start": 2.929,
-     "end": 5.653
+     "start": 3.839,
+     "end": 6.778
     },
     {
      "text": "Contohnya, untuk A = -1, 3, -4, -2, jawabannya 24, dari subarray 3, -4, -2.",
      "speech": "Contohnya, untuk A sama dengan minus 1, 3, minus 4, minus 2, jawabannya 24, dari subarray 3, minus 4, minus 2.",
-     "start": 5.933,
-     "end": 15.992
+     "start": 7.655,
+     "end": 18.106
     }
    ],
-   "sig": "ebd18c6f2aba56b3593cc45f02eca01b214ac5bb"
+   "sig": "197ef840954e9d5f"
   },
   "s14_product_task": {
    "scene": "S14Exercise",
    "file": "audio/segments/s14_product_task.wav",
-   "duration": 11.783,
+   "duration": 14.093,
    "sentences": [
     {
      "text": "Pertanyaannya, kenapa algoritma Kadane yang standar tidak berhasil di sini?",
      "speech": "Pertanyaannya, kenapa algoritma Kadane yang standar tidak berhasil di sini?",
-     "start": 0.0,
-     "end": 3.691
+     "start": 0.101,
+     "end": 4.07
     },
     {
      "text": "Bagaimana cara membuatnya berhasil, dan kenapa?",
      "speech": "Bagaimana cara membuatnya berhasil, dan kenapa?",
-     "start": 3.971,
-     "end": 6.715
+     "start": 4.934,
+     "end": 7.963
     },
     {
      "text": "Petunjuknya, perhatikan apa yang terjadi ketika bilangan negatif dikalikan dengan bilangan negatif.",
      "speech": "Petunjuknya, perhatikan apa yang terjadi ketika bilangan negatif dikalikan dengan bilangan negatif.",
-     "start": 6.995,
-     "end": 11.783
+     "start": 8.84,
+     "end": 13.943
     }
    ],
-   "sig": "66c8f574c4a633b24a13e55420bf4290b78c7825"
+   "sig": "10c2bf9c4bcbab31"
   },
   "s14_refs": {
    "scene": "S14Exercise",
    "file": "audio/segments/s14_refs.wav",
-   "duration": 14.526,
+   "duration": 16.064,
    "sentences": [
     {
      "text": "Referensi untuk sesi ini adalah Cormen dan kawan-kawan, Introduction to Algorithms edisi keempat, bab 14.3, dan Skiena, The Algorithm Design Manual edisi ketiga, bab 10.1.",
      "speech": "Referensi untuk sesi ini adalah Cormen dan kawan-kawan, Introduction to Algorithms edisi keempat, bab 14.3, dan Skiena, The Algorithm Design Manual edisi ketiga, bab 10.1.",
-     "start": 0.0,
-     "end": 11.625
+     "start": 0.114,
+     "end": 12.189
     },
     {
      "text": "Terima kasih, dan sampai jumpa di sesi berikutnya!",
      "speech": "Terima kasih, dan sampai jumpa di sesi berikutnya!",
-     "start": 11.905,
-     "end": 14.526
+     "start": 13.053,
+     "end": 15.914
     }
    ],
-   "sig": "f6d0bae0014f01b1cd46bca4f7bffdaddd200798"
+   "sig": "099c06cc359ede43"
   }
  }
 }

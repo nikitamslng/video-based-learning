@@ -14,9 +14,10 @@ Struktur:
 import re
 
 VOICE = "id-ID-ArdiNeural"  # alternatif: "id-ID-GadisNeural"
-RATE = "+0%"
+RATE = "-3%"  # sedikit lebih lambat agar penjelasan lebih mudah diikuti
 PITCH = "+0Hz"
-SENTENCE_GAP = 0.28  # jeda (detik) antar kalimat di dalam satu segment
+# Satu segment di-TTS sekaligus (satu paragraf) agar intonasi & jeda antar kalimat natural.
+# Timing tiap kalimat diambil dari WordBoundary Edge TTS (dipakai untuk sinkron animasi & caption).
 
 SCENES = [
     # ------------------------------------------------------------------ 1

@@ -1,11 +1,11 @@
 # Dynamic Programming: Maximum Subarray Sum — Video Pembelajaran (Manim)
 
 Video pembelajaran animasi berbahasa Indonesia untuk materi **Session 15 — Dynamic Programming: Maximum Subarray Sum (Kadane's Algorithm)**.
-Seluruh visual dibuat dengan **Manim Community Edition**. Narasi memakai **TTS Bahasa Indonesia** (Microsoft Edge Neural, suara `id-ID-ArdiNeural`). Subtitle di-*burn* ke video dan juga tersedia sebagai `.srt` dan `.vtt`.
+Seluruh visual dibuat dengan **Manim Community Edition**. Narasi memakai **TTS Bahasa Indonesia gratis** (Microsoft Edge Neural, suara `id-ID-ArdiNeural`, tempo −3%, satu paragraf per segment agar intonasi natural). Subtitle di-*burn* ke video dan juga tersedia sebagai `.srt` dan `.vtt`.
 
 | Deliverable | Keterangan |
 |---|---|
-| `final_video.mp4` | Video final 1920×1080, 30 fps, H.264 + AAC, narasi + subtitle burn-in (±16 menit) |
+| `final_video.mp4` | Video final 1920×1080, 30 fps, H.264 + AAC, narasi + subtitle burn-in (±18 menit) |
 | `narration_script.md` | Naskah narasi per scene/segment (di-generate dari `manim/narration.py`) |
 | `captions.srt`, `captions.vtt` | Subtitle Bahasa Indonesia, tersinkron dengan narasi |
 | `manim/` | Seluruh source code Manim (theme, komponen, 14 scene) |
@@ -57,7 +57,7 @@ video-based-learning/
 │   ├── manifest.json          # durasi segment + waktu mulai/akhir tiap kalimat
 │   └── segments/*.wav         # audio narasi per segment
 ├── scripts/
-│   ├── generate_audio.py      # TTS per kalimat (cache) → wav per segment + manifest
+│   ├── generate_audio.py      # TTS per segment/paragraf (cache) + timing kata → wav per segment + manifest
 │   ├── render_scenes.py       # render scene Manim paralel (preview / final)
 │   ├── build_captions.py      # SRT + VTT + ASS (style burn-in) dari timing nyata
 │   ├── assemble_video.py      # concat scene → burn subtitle → loudnorm → MP4
@@ -69,7 +69,7 @@ video-based-learning/
 ```
 
 ### Cara sinkronisasi bekerja
-1. `generate_audio.py` men-TTS **setiap kalimat** secara terpisah, memangkas hening, lalu menyusunnya menjadi satu WAV per segment (jeda antar kalimat 0,28 s). Waktu mulai/akhir tiap kalimat disimpan di `audio/manifest.json`.
+1. `generate_audio.py` men-TTS **satu segment sekaligus sebagai satu paragraf** (bukan kalimat per kalimat), sehingga intonasi, tempo, dan jeda antar kalimat terdengar natural seperti dosen membaca penjelasan. Waktu mulai/akhir tiap kalimat diambil dari event *WordBoundary* Edge TTS dan disimpan di `audio/manifest.json`.
 2. Di Manim, setiap segment dibungkus `with self.say("segment_id") as seg:`. Audio diputar (`add_sound`) tepat saat blok dimulai, animasi bisa ditunggu-kan ke kalimat tertentu dengan `seg.wait_sentence(k)`, dan di akhir blok scene otomatis menunggu sampai audio selesai. Waktu mulai segment ditulis ke `build/<quality>/timings/<Scene>.json`.
 3. `build_captions.py` menghitung waktu caption = offset scene (durasi video nyata) + waktu segment + waktu kalimat, sehingga subtitle selalu pas dengan suara.
 
@@ -168,7 +168,7 @@ python scripts/render_scenes.py --quality final --jobs 4
   ```bash
   ./render_final.sh S10Compute
   ```
-- **Mengubah teks narasi** di `manim/narration.py` → jalankan seluruh pipeline. Hanya kalimat yang berubah yang di-TTS ulang (cache di `audio/cache/`), tetapi scene yang memakai segment itu harus dirender ulang karena durasinya berubah:
+- **Mengubah teks narasi** di `manim/narration.py` → jalankan seluruh pipeline. Hanya segment yang teksnya berubah yang di-TTS ulang (cache di `audio/cache/`), tetapi scene yang memakai segment itu harus dirender ulang karena durasinya berubah:
   ```bash
   ./render_final.sh S07Problem
   ```
